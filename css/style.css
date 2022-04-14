@@ -245,25 +245,25 @@ footer {
     border: 2px solid #e5e5e5;
   }
   
-  .card-cuerpo {
+.card-cuerpo {
     padding: 10px 15px;
-  }
+}
   
-  .card > img {
+.card > img {
     width: 100%;
-  }
+}
   
-  .card.fit img {
+.card.fit img {
     height: 200px;
     object-fit: cover;
     width: 100%;
-  }
+}
   
 @media screen and (min-width: 768px) {
   .card.fit.absolute img {
     object-fit: cover;
     height: 100%;
-  }
+}
   .card.fit.absolute .card-cuerpo {
     position: absolute;
     bottom: 0;
