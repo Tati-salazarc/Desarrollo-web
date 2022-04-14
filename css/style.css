@@ -84,11 +84,66 @@ h1 {
 }
 .containeruno {
     grid-area: containeruno;
+<<<<<<< HEAD
 
 }
 .fotoinicial{
     width: 100%;
 }
+=======
+    position: relative;
+    display: flex;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.mainprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: var(--max-width-container);
+    margin: auto;
+    padding: var(--padding-container);
+}
+  .tituloprincipal {
+    color: whitesmoke;
+    font-size: 5rem;
+    white-space: nowrap;
+    z-index: 5;
+    margin: 0 0 8% 0;
+    align-items: center;
+}
+
+.dive__nuevo-button {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 75%);
+    background-color:rgb(247, 236, 27);
+    border-radius: 10px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 0.5em 2em;
+    text-decoration: none;
+  }
+  .dive__nuevo-button:hover{
+      background-color: aqua;
+  }
+
+.fotoinicial{ 
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    pointer-events: none;
+}
+
+>>>>>>> primeraparte
 .post p {
     font-size: 20px;
 }
@@ -112,8 +167,40 @@ h1 {
     text-align: left;
     margin-left: 100px;
 }
+<<<<<<< HEAD
 
 
+=======
+.textonosotros{
+    position: absolute;
+    font-size: 3rem;
+    padding: 60px;
+    z-index: 5;
+    margin: 0 0 8% 0;
+    align-items: center;
+}
+.fotodos{
+    height: 100%;
+}
+.fotodos:hover{
+    animation: surf 12s;
+}
+@keyframes surf {
+    0%{
+        transform: scale(5);
+        transform:translateX(300px);
+    }
+    25% {
+        transition: all 3s;
+    }
+    65% {
+       border-radius: 5cm; 
+    }
+    99% {
+        border-radius: 5cm;
+    }
+}
+>>>>>>> primeraparte
 
 footer {
     grid-area: footer;
@@ -133,7 +220,10 @@ footer {
     font-size: 13px;
     justify-items: center;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> primeraparte
 }
 .redes{
     display: flex;
@@ -198,4 +288,8 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> primeraparte
