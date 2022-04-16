@@ -10,14 +10,14 @@ html {
 h3 {
     margin: 0;
   }
-body {
+/* body {
     min-width: 100%;
     flex-direction: column;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
+} */
 /* .grid-container{
     display: grid;
     gap: 10px;
@@ -27,24 +27,21 @@ body {
     "containeruno" auto
     "footer" 100px
 } */
-.header {
-    grid-area: header;
-    background-color: rgb(0, 95, 139);
+/* .header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    min-height: 60px;
     align-items: center;
-    padding: 10px;
-}
-.container {
+} */
+/* .container {
     color: white;   
-}
-.logo {
+} */
+/* .logo {
     height: 40px;
     margin-right: 10px;
     align-items: center;
-}
-.menu a {
+} */
+/* .menu a {
     text-decoration: none;
     color: white;
     align-items: center;
@@ -53,7 +50,7 @@ body {
 }
 .menu a:hover {
     color: aqua;
-}
+} */
 /* @media (max-width:600px){
   
     header {
@@ -98,18 +95,20 @@ h1 {
     padding: var(--padding-container);
 }
   .tituloprincipal {
-    color: whitesmoke;
-    font-size: 5rem;
-    white-space: nowrap;
+    position: absolute;
     z-index: 5;
-    margin: 0 0 8% 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 75%);
+    color: whitesmoke;
+    font-size: 4rem;
     align-items: center;
 }
 
 .dive__nuevo-button {
     position: absolute;
     z-index: 5;
-    top: 50%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, 75%);
     background-color:rgb(247, 236, 27);
@@ -123,6 +122,8 @@ h1 {
   .dive__nuevo-button:hover{
       background-color: aqua;
   }
+
+
 
 /* .fotoinicial{ 
     position: absolute;

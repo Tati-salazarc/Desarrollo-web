@@ -17,9 +17,45 @@
 
 <title>Deportes Subacuaticos</title>
 </head>
-<body class="grid-container">
-    <header class="header">
-            <div class="container">
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../proyecto desarrollo web/assets/img/logo head.png" class="img-fluid" width="400px" height="500px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../proyecto desarrollo web/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../proyecto desarrollo web/pages/quienessomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../proyecto desarrollo web/pages/deportes.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Deportes
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Buceo</a></li>
+                  <li><a class="dropdown-item" href="#">Surf</a></li>
+                  <li><a class="dropdown-item" href="#">Kitesurfing</a></li>
+      
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../proyecto desarrollo web/pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../proyecto desarrollo web/pages/">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+            <!-- <div class="container">
                     <img class="logo" src="../proyecto desarrollo web/assets/img/logo head.png"/>
             </div>
                      <nav class="menu">
@@ -28,7 +64,7 @@
                             <a href="pages/deportes.html">Deportes</a>
                             <a href="pages/contacto.html">Contacto</a>
                             <a href="../desafio/pages/blog.html">Blog</a>
-                         </nav>
+                         </nav> -->
      </header>
     
         <div class="titulo">
@@ -38,14 +74,13 @@
         </div>
 
 <!--imagen principal-->
-<section class="containeruno">
-        <div class="mainprincipal">
-            <h2 data-aos="fade-down" class="tituloprincipal">Amamos el agua, amamos en azul del mar</h2>
-        </div>
-        <a href="#comienza" class="dive__nuevo-button hero__learn-button--active">¡Comienza una nueva aventura!</a>
-</section>
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div class="mainprincipal">
+  <h2 class="tituloprincipal">Amamos el agua, amamos en azul del mar
+  </h2>
+     <a href="#comienza" class="dive__nuevo-button hero__learn-button--active">¡Comienza una nueva aventura!</a>
+     
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="../proyecto desarrollo web/assets/img/imagenportada1.jpg" class="d-block w-100" alt="...">
@@ -66,8 +101,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
-
+  </div>
     <footer class="footer">
             <div class="terminos">
                 <p>Terminos - Privacidad - Politica del programa</p>        </div>
