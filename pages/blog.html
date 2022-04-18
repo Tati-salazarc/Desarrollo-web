@@ -54,14 +54,108 @@
     <!--
       Contenido del blog
     -->
-    <main class="containerblog">
-            <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-            <div class="col-md-6 px-0">
-              <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
-              <p class="lead my-3">Los deportes subacuaticos más populares y otros que no sabías que existian.</p>
-              <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+    <main>
+      <!--carrusel imagenes-->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../pages/img/pexels-pixabay-37530.jpg" class="bd-placeholder-img" width="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Buceo Profesional.</h1>
+                <p>El buceo profesional hace referencia a las actividades de buceo con fines no recreativos. Los buzos profesionales deben seguir una formación y un entrenamiento específico, pues su actividad implica alto riesgo..</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Ver Nota</a></p>
+              </div>
             </div>
           </div>
+          <div class="carousel-item">
+            <img src="../pages/img/pexels-apg-graphics-1603453.jpg" class="bd-placeholder-img" width="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
+    
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Kitesurfing.</h1>
+                <p>SEl kitesurf o kitesurfing e incluso se ha propuesto la adaptación tablacometa, es un deporte de deslizamiento que consiste en el uso de una cometa de tracción, que tira del deportista.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../pages/img/pexels-miles-hardacre-2404370.jpg" class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+    
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Buceo a Pulmon</h1>
+                <p>El buceo a pulmón es una de las modalidades mas arriesgadas, llegando incluso hasta más de 200 metros de profundidad. Todo Buceo Lo que comenzó siendo una técnica de pesca se ha convertido en una modalidad extrema del buceo.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Ver Nota</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+      <!--notas-->
+      
+      <hr class="featurette-divider">
+       <div class="row featurette">
+        <div class="col-md-6 ">
+          <h2 class="featurette-heading">Buceo Profesional
+          <span class="text-muted">Un Mundo lleno de maravillas.</span></h2>
+          <p class="lead">El buceo profesional hace referencia a las actividades de buceo con fines no recreativos. Los buzos profesionales deben seguir una formación y un entrenamiento específico, pues su actividad implica alto riesgo..</p>
+        </div>
+        <div class="col-md-6">
+          <img src="../pages/img/pexels-maël-balland-3098936.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Buceo a Pulmon <span class="text-muted">Descubre que tan profundo puedes llegar</span></h2>
+          <p class="lead">El buceo a pulmón es una de las modalidades mas arriesgadas, llegando incluso hasta más de 200 metros de profundidad. Todo Buceo Lo que comenzó siendo una técnica de pesca se ha convertido en una modalidad extrema del buceo</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="../pages/img/pexels-emma-li-8812640.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Kitesurfing <span class="text-muted">Amaras estar deslizandote en las olas</span></h2>
+          <p class="lead">l kitesurf o kitesurfing e incluso se ha propuesto la adaptación tablacometa, es un deporte de deslizamiento que consiste en el uso de una cometa de tracción, que tira del deportista por cuatro o cinco líneas, dos fijas a la barra, y las dos o tres restantes pasan por el centro de la barra y se sujetan al cuerpo</p>
+        </div>
+        <div class="col-md-5">
+          <img src="../pages/img/pexels-guy-kawasaki-1654502.jpg" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#eee"/>
+  
+        </div>
+      </div>
+  
+      <hr class="featurette-divider">  
+    </div>
+
+     
+    
+
     </main>
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
