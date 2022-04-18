@@ -40,23 +40,23 @@ css bootstrap*/
 /* CARRUSEL
 -------------------------------------------------- */
 
-.carousel {
+.carrusel {
   margin-bottom: 4rem;
 }
-.carousel-caption {
+.carrusel-caption {
   bottom: 3rem;
   z-index: 10;
 }
-.carousel-item {
+ .carrusel-item {
   height: 32rem;
-}
-.carousel-item > img {
+} 
+ .carrusel-itemactive > img {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 32rem;
-}
+} 
 
 
 .featurette-divider {
