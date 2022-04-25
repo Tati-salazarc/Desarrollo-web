@@ -21,6 +21,7 @@ div {
   }
 
 }
+
 @media (min-width: 768px) {
     .display-4 {
       font-size: 3rem;
@@ -120,7 +121,7 @@ div {
     padding: 0.5em 2em;
     text-decoration: none;
   }
-  .dive__nuevo-button:hover{
+    &:hover {
       background-color: aqua;
   }
 }

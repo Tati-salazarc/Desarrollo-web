@@ -1,7 +1,6 @@
 {
   "name": "proyecto-desarrollo-web",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/Tati-salazarc/Desarrollo-web/issues"
   },
-  "homepage": "https://github.com/Tati-salazarc/Desarrollo-web#readme"
+  "homepage": "https://github.com/Tati-salazarc/Desarrollo-web#readme",
+  "description": ""
 }
