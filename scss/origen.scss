@@ -128,4 +128,39 @@ div {
    
 }
 
-  
+/* extends en botones deportes*/
+
+.btn-group {
+  @extend.btn-group; 
+  background-color: whitesmoke;
+}
+
+/* MIXIN en la pagina blog */ 
+
+@mixin colorblog() {
+  background-color:rgb(235, 235, 235);
+  }
+  .bodyblog{
+    @include colorblog()
+ }
+
+ @mixin colorcontacto {
+  background-color:rgb(235, 235, 235)
+ }
+ .colorcontact{
+   @include colorcontacto()
+ }
+
+
+ /* MAPS en botones de la pagina quienes somos*/
+
+ $btn2: (
+   color: rgb(9, 188, 208),
+   centro: center,
+   fuente: 20px,
+ );
+.btn2{
+  background-color: map-get($btn2, color);
+  text-align: map-get($btn2, centro);
+  font-size: map-get($btn2, fuente);
+}

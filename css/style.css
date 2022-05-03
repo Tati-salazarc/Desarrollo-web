@@ -112,4 +112,25 @@ div .dive__nuevo-button:hover {
   background-color: aqua;
 }
 
+/* extends en botones deportes*/
+.btn-group {
+  background-color: whitesmoke;
+}
+
+/* MIXIN en la pagina blog */
+.bodyblog {
+  background-color: rgb(235, 235, 235);
+}
+
+.colorcontact {
+  background-color: rgb(235, 235, 235);
+}
+
+/* MAPS en botones de la pagina quienes somos*/
+.btn2 {
+  background-color: rgb(9, 188, 208);
+  text-align: center;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */
