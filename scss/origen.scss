@@ -76,7 +76,7 @@
 
 /* MOBILE FIRST */
 
-@media (max-width: 576px){
+@media (min-width: 540px) and (max-width: 576px){
   .img-fluid{
     width: auto;
   }
@@ -84,11 +84,11 @@
     .tituloprincipal {
     position: absolute;
     z-index: 5;
-    top: 22%;
+    top: -9%;
     left: 50%;
     transform: translate(-50%, 75%);
     color: whitesmoke;
-    font-size: 27px;
+    font-size: 33px;
     align-items: center;
     font-weight: 500;
     }
@@ -104,7 +104,7 @@
     background-color:rgb(247, 236, 27);
     border-radius: 10px;
     color: black;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 800;
     padding: 0.5em 2em;
     text-decoration: none;
@@ -116,8 +116,6 @@
 }
 
 }
-
-
 
 
 /* aqui arrancamos scss*/
